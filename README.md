@@ -1,5 +1,5 @@
 # system-programming-with-go
-playground for system programming with go (book)
+playground for system programming with go (book here: https://g.co/kgs/ydHQTB)
 
 
 # time i spent on this project 
