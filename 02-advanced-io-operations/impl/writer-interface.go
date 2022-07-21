@@ -33,7 +33,7 @@ func ReverseWrite(fileSrc string, fileDst string) {
 			b, step = b[:cur], cur
 		}
 
-		fmt.Printf("[%s]\n", string(b))
+		fmt.Printf("[%s]\n, step", string(b))
 		cur = cur - step
 		_, err = src.Seek(cur, os.SEEK_SET) // go backwards
 
