@@ -8,5 +8,5 @@ import (
 func main() {
 	fmt.Println("I/O Operations")
 
-	impl.Load("data/test.txt")
+	impl.ReverseWrite("data/test.txt", "data/dest.txt")
 }
